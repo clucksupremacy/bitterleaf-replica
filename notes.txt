@@ -3,16 +3,16 @@ Replicating Bitterleaf Teas website (https://www.bitterleafteas.com/?srsltid=Afm
 Stage 1 goal: Replicate home/landing page.
 
 Initial impressions of home page (non-exhaustive): 
-    1. CSS grid main presentation layout
+    1. CSS grid main content presentation layout ("gallery-style layout")
     2. Sticky header navigation menu ("shrinking" - logo disappears)
-    3. Footer and alert banner fixed bottom of viewport
+    3. Number pagination UX pattern for sequential page navigation
+    4. Footer and alert banner fixed bottom of viewport
         a. Alert banner has higher z-index than other components
         b. Prime candidates for layout.js
-    4. MAIN ARCHITECTURE (desktop): 
+    5. MAIN ARCHITECTURE (desktop):
         a. HEADER 
             i. Logo     ii. Navigation menu
         b. MAIN CONTENT 
         c. FOOTER 
             i. Main footer  ii. Alert banner
-
-            
+        IN SUMMARY: 3 major components.
