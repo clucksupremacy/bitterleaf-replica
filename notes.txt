@@ -1,6 +1,8 @@
 Replicating Bitterleaf Teas website (https://www.bitterleafteas.com/?srsltid=AfmBOooB3shYhf3PaCKgTyy-ufpTvGY-8XLeCDXexFyae2Zabc73U9fW).
 
-Stage 1 goal: Replicate home/landing page.
+Goal 1: Replicate main content section UI.
+Goal 2: Seed data into a new PostgreSQL database.
+Goal 3: Connect the database to Litterbeef.
 
 Initial impressions of home page (non-exhaustive): 
     1. CSS grid main content presentation layout ("gallery-style layout")
