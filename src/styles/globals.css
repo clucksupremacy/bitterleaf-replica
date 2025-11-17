@@ -29,10 +29,38 @@ a {
   color: #717171;
 }
 
+/* default screen size */
 .container-gallery {
   display: grid; 
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
+  padding: 20px;
+}
+
+/* large tablet screen size */
+@media screen and 
+      (min-width: 768px) and 
+      (max-width: 1159px) {
+        .container-gallery {
+          grid-template-columns: repeat(4, 1fr);
+        }
+}
+
+/* small tablet screen size */
+@media screen and 
+      (min-width: 567px) and 
+      (max-width: 767px) {
+        .container-gallery {
+          grid-template-columns: repeat(3, 1fr);
+        }
+}
+
+/* mobile screen size */
+@media screen and 
+      (max-width: 575px) {
+        .container-gallery {
+          grid-template-columns: repeat(2, minmax(0, 1fr));
+        }
 }
 
 /* .product-image {
