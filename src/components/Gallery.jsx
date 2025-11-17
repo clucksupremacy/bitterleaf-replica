@@ -1,10 +1,8 @@
 import ProductCard from './ProductCard';
-// import { getProducts } from '/lib/products';
 import { useEffect, useState } from "react";
 
 
 export default function Gallery() {
-  // const products = getProducts();
   const [products, setProducts] = useState([]);
 
   useEffect(() => {

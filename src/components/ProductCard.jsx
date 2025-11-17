@@ -6,7 +6,7 @@ import Image from 'next/image';
 export default function ProductCard({ product }) {
   return (
     <div className="card-container">
-        <Link href='/products'>
+        <Link href={`/products/${product.id}`}>
             <div className="">
                 <Image
                     src={product.product_image}
