@@ -1,6 +1,7 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
+  --link-hover-color: #2c659c;
 }
 
 body {
@@ -11,6 +12,10 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.product-name:hover {
+  color: var(--link-hover-color);
 }
 
 .card-container {
